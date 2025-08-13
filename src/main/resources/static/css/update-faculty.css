@@ -1,0 +1,38 @@
+body {
+  padding-top: 70px;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #003366;
+}
+
+.btn-update {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Faculty</title>
+
+    <!-- Bootstrap & Icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/faculty.css" />
+</head>
+<body>
+
+<!-- ✅ Dynamic Navbar -->
+<div id="navbar-placeholder"></div>
+
+<!-- ✅ Faculty Form -->
+<div class="container table-container">
+    <h3 class="text-center font-weight-bold mb-4">Add Faculty</h3>
+
+    <form id="facultyForm">
+        <div class="form-group">
+            <label for="facultyName">Name</label>
+            <input type="text" class="form-control" id="facultyName" required />
+        </div>
+        <div class="form-group">
+            <label for="facultyAge">Age</label>
+            <input type="number" class="form-control" id="facultyAge" required />
+        </div>
+        <div class="form-group">
+            <label for="facultySpecialization">Specialization</label>
+            <input type="text" class="form-control" id="facultySpecialization" required />
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn btn-dark-blue">Add Faculty</button>
+            <button type="button" class="btn btn-dark-blue" onclick="window.location.href='faculty-list.html'">View Faculty List</button>
+        </div>
+    </form>
+
+    <div id="facultyMessage" class="text-success"></div>
+</div>
+
+<!-- ✅ Dynamic Footer -->
+<div id="footer-placeholder"></div>
+
+<!-- ✅ Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/navbar.js"></script> <!-- load nav + highlight -->
+<script src="js/faculty.js"></script>
+</body>
+</html>

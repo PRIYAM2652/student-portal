@@ -1,0 +1,60 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+  padding-top: 70px; /* So content doesn't hide behind fixed navbar */
+  background-image: url('../images/background.jpg'); /* Optional */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== NAVBAR ACTIVE HIGHLIGHT ===== */
+
+/* ===== FORM CONTAINER ===== */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 12px;
+  margin: 30px auto;
+  width: 50%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== HEADINGS ===== */
+.form-container h2 {
+  text-align: center;
+  color: #343a40;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* ===== LABELS ===== */
+label {
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* ===== BUTTON STYLES ===== */
+.btn-success {
+  background-color: #003366 !important;
+  border-color: #002855 !important;
+}
+
+.btn-success:hover {
+  background-color: #002855 !important;
+}
+
+/* ===== FIXED WIDTH BUTTON ===== */
+.btn-fixed-size {
+  width: 180px;
+  padding: 10px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* ===== ENROLL MESSAGE ===== */
+#enrollMessage {
+  font-size: 1rem;
+  text-align: center;
+}

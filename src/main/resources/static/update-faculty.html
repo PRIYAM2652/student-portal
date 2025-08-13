@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Update Faculty</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/update-faculty.css" />
+</head>
+<body>
+
+<!-- ✅ Navbar loaded dynamically -->
+<div id="navbar-placeholder"></div>
+
+<div class="container form-container">
+    <h3 class="text-center mb-4" style="color: #003366;">Update Faculty Details</h3>
+    <form id="updateFacultyForm">
+        <div class="form-group">
+            <label for="facultyName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="facultyName" readonly />
+        </div>
+        <div class="form-group">
+            <label for="facultyAge" class="form-label">Age</label>
+            <input type="number" class="form-control" id="facultyAge" required />
+        </div>
+        <div class="form-group">
+            <label for="facultySpecialization" class="form-label">Specialization</label>
+            <select class="form-control" id="facultySpecialization" required>
+                <option value="Full Stack">Full Stack</option>
+                <option value="Java Developer">Java Developer</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Senior Architecture">Senior Architecture</option>
+            </select>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-update">Update</button>
+        </div>
+    </form>
+</div>
+
+<!-- ✅ Footer -->
+<footer>&copy; 2025 KIIT Student Portal</footer>
+
+<!-- ✅ JS Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/update-faculty.js"></script>
+
+</body>
+</html>

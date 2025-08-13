@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  padding-top: 70px;
+}
+
+.table-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  width: 100%;
+}
+
+.btn-dark-blue {
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-dark-blue:hover {
+  background-color: #002244;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-buttons button {
+  width: 48%;
+}
+
+#facultyMessage {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+  display: none;
+}

@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student_portal
+    username: postgres
+    password: Priyam59
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  server:
+    port: 8080
+
+cors:
+  allowed-origins: "*"
